@@ -1,8 +1,6 @@
-main() {
-  doSomething();
-  doSomething();
-}
+import 'package:flutter/material.dart';
+import 'package:flutter_app/app.dart';
 
-doSomething() {
-  print("hello there");
+main() {
+  runApp(App());
 }
